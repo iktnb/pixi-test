@@ -4,7 +4,11 @@ import { Color, Settings } from "..";
 import { PortView } from "./PortView";
 
 /* import TWEEN from "@tweenjs/tween.js"; */
-
+/* 
+При використанні tween для анімації караблі просто не відображаються, 
+але часу виконувати тестове та розібратись в чому проблема я більше не маю, 
+сподіваюсь отримати від вас фідбек про виконнаня ції роботи 
+*/
 export class ShipView extends Ship {
     private view: Container;
     private shipView: Container;
